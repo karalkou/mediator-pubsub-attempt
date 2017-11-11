@@ -1,0 +1,85 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "jquery": true,
+    "commonjs": true,
+    "amd": true,
+    "es6": true
+  },
+
+  "globals": {},
+
+  "rules": {
+    "linebreak-style": "off",
+
+    "no-console": [
+      "warn",
+      { "allow": [ "error" ] }
+    ],
+
+    "object-curly-newline": [
+      "error",
+      { "minProperties": 2 }
+    ],
+
+    "padded-blocks": [
+      "error",
+      "never"
+    ],
+
+    "keyword-spacing": [
+      "error"
+    ],
+
+    "key-spacing": [
+      "error"
+    ],
+
+    "space-before-blocks": [
+      "error",
+      "always"
+    ],
+
+    "object-property-newline": [
+      "error"
+    ],
+
+    "indent": [
+      "error",
+      4,
+      { "SwitchCase": 1 }
+    ],
+
+    "quotes": [
+      "error",
+      "single"
+    ],
+
+    "semi": [
+      "error",
+      "always"
+    ],
+
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
+
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+
+    "space-infix-ops": [
+      "error"
+    ]
+  }
+}
